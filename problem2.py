@@ -62,10 +62,12 @@ class class1():
         
         self.inter.SetRenderWindow(self.window)
 
-        self.window.Render()
+        
        
       
         self.inter.Initialize()
+        self.window.Render()
+        self.inter.Start()
 
 
 if __name__=='__main__':
