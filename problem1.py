@@ -107,14 +107,16 @@ class class1():
 
         #Renderring objects into screen and initializing user interaction
         self.window.AddRenderer(self.renderer)
-        self.window.SetTitle('Problem1')
         
         self.inter.SetRenderWindow(self.window)
-
+        
+        self.inter.Initialize()
         self.window.Render()
+        self.inter.Start()
        
       
-        self.inter.Initialize()
+        
+        
 
 if __name__=='__main__':
     c=class1()
