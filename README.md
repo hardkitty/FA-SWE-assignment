@@ -1,5 +1,5 @@
 # FA-SWE-assignment
-Fabhead automations assignments
+FA assignments
 
 
 Problem #1: For z-heights 10.0,30.0 and 50.0 section views are displayed in colors yellow,red and blue respectively.
